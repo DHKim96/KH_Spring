@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:include page="common/header.jsp"/>
-	<div style="height: 600px">
+	<jsp:include page="common/header.jsp" />
+	<div style="height: 600px;">
 	</div>
-	<jsp:include page="common/footer.jsp"/>
+	<jsp:include page="common/footer.jsp" />
 </body>
 </html>

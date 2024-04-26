@@ -6,19 +6,16 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @ToString
-public class Board {
-	private int boardNo;
-	private String boardTitle;
-	private String boardWriter;
-	private String boardContent;
-	private String originName;
-	private String changeName;
-	private int count;
+public class Reply {
+	private int replyNo;
+	private String replyContent;
+	private int refBno;
+	private String replyWriter;
 	private String createDate;
 	private String status;
 }
